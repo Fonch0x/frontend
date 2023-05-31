@@ -1,0 +1,24 @@
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Kun Academy Task</span>
+  <span class="example-spacer"></span>
+  <button mat-button routerLink="/classes">Clases</button>
+  <button mat-button routerLink="/create">Agregar clase</button>
+  <button mat-button routerLink="/students">Estudiantes</button>
+  <button mat-button routerLink="/add">Agregar estudiante</button>
+  <span class="example-spacer"></span>
+
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+
+<div>
+
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+  
+</div>
